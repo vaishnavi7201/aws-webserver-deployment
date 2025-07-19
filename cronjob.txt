@@ -1,0 +1,2 @@
+Update files every 15 minutes on everyday to s3 bucket for backup
+15 * * * * script.sh
