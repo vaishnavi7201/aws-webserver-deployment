@@ -10,10 +10,10 @@ This project demonstrates the complete setup of a secure and scalable web server
 1. IAM Setup with Least Privilege Access
 Created an IAM user with permissions for EC2 Full Access, S3 Full Access, and IAM Full Access.
 
-Attached a custom-managed IAM policy restricting access to only required S3 actions (GetObject, PutObject) for the specific bucket and its contents.
+Attached a custom-managed IAM policy restricting access only to (GetObject, PutObject) for the specific bucket and its contents.
 
 2. EC2 Instance Launch
-Deployed a Red Hat Linux EC2 instance.
+Launched a Red Hat Linux EC2 instance.
 
 Configured the security group to allow SSH (port 22) and HTTP (port 80) as inbound traffic.
 
